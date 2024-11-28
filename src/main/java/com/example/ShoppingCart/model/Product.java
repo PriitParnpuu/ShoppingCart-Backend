@@ -23,7 +23,7 @@ public class Product {
     private static double unitPrice(double price, int quantity) {
         return price * quantity;
     }
-    private static double totalPrice(double price, int quantity) {
+    public static double totalPrice(double price, int quantity) {
         return price * quantity * unitPrice(price, quantity);
     }
 }
